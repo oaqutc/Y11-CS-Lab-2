@@ -8,41 +8,6 @@
  */
 
 public class Main {
-
-    public static void main(String[] args) {
-        // Test 1: add two integers
-        int sumTwo = add(3, 8);
-        System.out.println(sumTwo);
-
-        // Test 2: add four integers
-        int sumFour = add(3, 8, 4, 9);
-        System.out.println(sumFour);
-
-        // Test 3: morning greeting
-        String morningGreetingResult = morningGreeting("Toby Fox");
-        System.out.println(morningGreetingResult);
-
-        // Test 4: afternoon greeting
-        String afternoonGreetingResult = afternoonGreeting("Mac Miller");
-        System.out.println(afternoonGreetingResult);
-
-        // Test 5: triple
-        String tripleResult = triple("oohbaby");
-        System.out.println(tripleResult);
-
-        // Test 6: half
-        double halfResult = half(17);
-        System.out.println(halfResult);
-
-        // Test 7: round positive value
-        int roundedPositive = roundPositiveValueToNearestInteger(8.49);
-        System.out.println(roundedPositive);
-
-        // Test 8: round negative value
-        int roundedNegative = roundNegativeValueToNearestInteger(-8.49);
-        System.out.println(roundedNegative);
-    }
-
     // 1. add - takes two integers and returns their sum
     public static int add(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;
